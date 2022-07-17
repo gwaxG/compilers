@@ -1,10 +1,10 @@
-﻿using TINY.Phases;
+﻿using TINY;
 
 var program = 
     "\tx = 5;\n" +
     "x = y + 5;\n" +
-    "{sdf = sdf \n" +
-    "dsf qsdf }\n" +
+    "(sdf = sdf \n" +
+    "dsf qsdf )\n" +
     "y =     \t 2 + 2;\n";
 
 var scanner = new Scanner(program.ToArray<char>());
