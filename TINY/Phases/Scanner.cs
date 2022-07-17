@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TINY.Phases
+namespace TINY
 {
     public class Scanner
     {
