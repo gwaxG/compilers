@@ -38,11 +38,12 @@ namespace TINY
                 {"*",  TokenType.MULTIPLICATION},
                 {"=",  TokenType.EQUAL},
                 {"<",  TokenType.LESS},
-                {"{",  TokenType.LEFTBRACKET},
-                {"}",  TokenType.RIGHTBRACKET},
-                {";",  TokenType.COMMADOT},
+                {"(",  TokenType.LEFTBRACKET},
+                {")",  TokenType.RIGHTBRACKET},
+                {";",  TokenType.SEMI},
                 {":=",  TokenType.ASSIGN},
-
+                {"{",  TokenType.OPENCOMMENT},
+                {"}",  TokenType.CLOSECOMMENT},
             };
 
             _line = 0;
@@ -50,7 +51,6 @@ namespace TINY
             _lastLinePos = 0;
             _chars = chars;
         }
-        
 
         public Token GetToken()
         {
@@ -195,3 +195,4 @@ namespace TINY
         }
     }
 }
+

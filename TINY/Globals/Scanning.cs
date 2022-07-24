@@ -21,7 +21,7 @@
         LESS,
         LEFTBRACKET,
         RIGHTBRACKET,
-        COMMADOT,
+        SEMI,
         ASSIGN,
 
         // User-defined
@@ -30,7 +30,9 @@
 
         // System
         PROGEND,
-        ERROR
+        ERROR,
+        OPENCOMMENT,
+        CLOSECOMMENT
     }
     public class Token
     {
