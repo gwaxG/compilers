@@ -53,6 +53,7 @@
             if (
                 tok.Type == TokenType.REPEAT ||
                 tok.Type == TokenType.UNTIL ||
+                tok.Type == TokenType.ASSIGN ||
                 tok.Type == TokenType.IF ||
                 tok.Type == TokenType.THEN ||
                 tok.Type == TokenType.ELSE ||
